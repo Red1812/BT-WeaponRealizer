@@ -1,8 +1,10 @@
-# BT-WeaponRealizer
+# BT-WeaponRealizer modified by Redferne
+
+## Quick fix for BT 1.6.1
 
 ## Download
 
-Get the latest version from [https://github.com/janxious/BT-WeaponRealizer/releases](https://github.com/janxious/BT-WeaponRealizer/releases). **Do not** click the source code links.
+Get the latest version from [https://github.com/Red1812/BT-WeaponRealizer/releases](https://github.com/Red1812/BT-WeaponRealizer/releases). **Do not** click the source code links.
 
 ## What is this?
 
