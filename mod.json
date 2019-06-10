@@ -2,9 +2,9 @@
   "Name": "WeaponRealizer",
   "Enabled": true,
 
-  "Version": "0.5.0",
+  "Version": "0.6.0",
 
-  "Author": "janxious",
+  "Author": "janxious, Redferne",
   "Website": "https://github.com/janxious/WeaponRealizer",
 
   "DLL": "WeaponRealizer.dll",

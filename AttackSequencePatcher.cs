@@ -19,7 +19,7 @@ namespace WeaponRealizer
     static class AttackSequencePatcher
     {
         // ReSharper disable once UnusedMember.Local
-        static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+        /*static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             var instructionList = instructions.ToList();
             var instructionsToInsert = new List<CodeInstruction>();
@@ -43,6 +43,6 @@ namespace WeaponRealizer
             instructionList.InsertRange(insertionIndex, instructionsToInsert);
                                                                                   
             return instructionList;
-        }
+        }*/
     }
 }

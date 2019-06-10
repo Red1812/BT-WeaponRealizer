@@ -8,7 +8,7 @@ namespace WeaponRealizer
     public static partial class Core
     {
         public const string ModName = "WeaponRealizer";
-        public const string ModId   = "com.joelmeador.WeaponRealizer";
+        // public const string ModId   = "com.joelmeador.WeaponRealizer";
 
         internal static Settings ModSettings = new Settings();
         internal static string ModDirectory;
@@ -16,6 +16,7 @@ namespace WeaponRealizer
         public static void Init(string directory, string settingsJson)
         {
             ModDirectory = directory;
+            // ModSettings = settings;
             try
             {
                 ModSettings = JsonConvert.DeserializeObject<Settings>(settingsJson);
@@ -26,7 +27,7 @@ namespace WeaponRealizer
                 ModSettings = new Settings();
             }
             HarmonyInstance.DEBUG = ModSettings.debug;
-            var harmony = HarmonyInstance.Create(ModId);
+            var harmony = HarmonyInstance.Create("com.joelmeador.WeaponRealizer");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
             Patches.Apply(harmony);
         }

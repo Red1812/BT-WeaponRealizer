@@ -27,9 +27,9 @@ namespace RealizerTester
                 var distanceBasedFunctionMultiplier = (float) Math.Atan(1f / (Pi2 * distanceRatio + baseMultiplier));
                 if (distance <= maxRange)
                 {
-                    varianceMultiplier = Mathf.Max(
+                    varianceMultiplier = Math.Max(
                         baseMultiplier,
-                        Mathf.Min(
+                        Math.Min(
                             1.0f,
                             distanceBasedFunctionMultiplier
                         ));
