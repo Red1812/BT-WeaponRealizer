@@ -2,6 +2,8 @@
 
 ## Quick fix for BT 1.6.1
 
+CMiSSioN told me that my "fix" broke the damage variation feature. If you want a properly working version please consider using Custom Ammo Categories https://github.com/CMiSSioN/CustomAmmoCategories
+
 ## Download
 
 Get the latest version from [https://github.com/Red1812/BT-WeaponRealizer/releases](https://github.com/Red1812/BT-WeaponRealizer/releases). **Do not** click the source code links.
