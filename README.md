@@ -1,5 +1,7 @@
 # BT-WeaponRealizer modified by Redferne
 
+Note: this will not be updated for BT 1.7. If you want or need WeaponRealizer functionality, use CMiSSioN Custom Ammo Categories (see below).
+
 ## Quick fix for BT 1.6.1
 
 CMiSSioN told me that my "fix" broke the damage variation feature. If you want a properly working version please consider using Custom Ammo Categories https://github.com/CMiSSioN/CustomAmmoCategories
